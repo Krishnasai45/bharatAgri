@@ -1,0 +1,16 @@
+.maincard{
+    width: 30%;
+    padding: 1.5rem;
+    border: 0.1px solid rgb(241, 239, 239);
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px #ddd;
+    margin: 5px;
+}
+.cardimage{
+    width: 90%;
+    margin: auto;
+}
+.cardname{
+    text-align: center;
+    font-weight: 700;
+}
