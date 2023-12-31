@@ -1,0 +1,77 @@
+.mainbody {
+    max-width:60% ;
+    min-width: 40%;
+    min-height: 650px;
+    padding: 30px;
+    position: relative;
+    margin:auto;
+    background-image: url("https://startupstorymedia.com/wp-content/uploads/2023/10/BharatAgri.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 0.1px solid rgb(241, 239, 239);
+    border-radius: 2px; */
+  }
+
+.container{
+    max-width: 300px;
+    min-width: 150px;
+    text-align: start;
+    padding: 30px; 
+margin: auto;
+position: absolute;
+top: 250px;
+left: 0;
+right: 0;
+}
+
+.username,
+.password {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+
+.username label,
+.password label {
+  font-size: 15px;
+  font-family: Lato;
+  color: rgb(187, 187, 185);
+  margin: 3px;
+}
+
+.username input,
+.password input {
+  background-color: transparent;
+  border: 0.2px solid rgb(161, 161, 161);
+  height: 35px;
+  font-size:medium;
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: rgb(3, 0, 9);
+  align-items: center;
+  border-radius: 5px;
+}
+
+.submit{
+    background-color: transparent;
+    border: 0.2px solid rgb(161, 161, 161);
+    height: 35px;
+    font-size: smaller;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 5px;
+    background:rgb(5, 87, 5);
+    color: rgb(211, 207, 243);
+}
+
+h4 {
+    margin-left: 5px;
+  }
+
+.error {
+    color: red;
+  }

@@ -1,5 +1,5 @@
 .maincard{
-    width: 30%;
+    width: 90%;
     padding: 1.5rem;
     border: 0.1px solid rgb(241, 239, 239);
     border-radius: 2px;
@@ -8,6 +8,7 @@
 }
 .cardimage{
     width: 90%;
+    height: 80%;
     margin: auto;
 }
 .cardname{

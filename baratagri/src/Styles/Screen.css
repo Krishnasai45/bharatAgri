@@ -1,0 +1,11 @@
+h2{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.cardsmain{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch;
+    }
