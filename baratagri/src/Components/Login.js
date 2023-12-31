@@ -22,7 +22,7 @@ function Login() {
 
     return (
         <>
-            {!isAuth ? (<div div className='mainbody'><div className="container">
+            {!isAuth ? (<div className='mainbody'><div className="container">
                 <h4>Hello there, Login to continue</h4>
                 <form>
                     <div className='username'>
